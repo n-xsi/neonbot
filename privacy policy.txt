@@ -1,8 +1,8 @@
 1- Data and information used in our bot:
-  All users will never be asked for sensitive whatsoever like your password, email or anything. All what the bot will ever ask you for is your last.fm username   to be able to use our last.fm service which is still, optional.
+  All users will never be asked for sensitive whatsoever like your password, email or anything. All what the bot will ever ask you for is your last.fm username to be able to use our last.fm service which is still, optional.
   
  2- How the user data is protected:
-  All data is protected on a 2FA secured database that can only be used by one of the bot developers and not the rest which means no data can be frauded or       leaked whatosever
+  All data is protected on a 2FA secured database that can only be used by one of the bot developers and not the rest which means no data can be frauded or leaked whatosever
   
  3- Copyright of our bot:
   It is forbidden to copy, reuse or use any of the bot's related content without permission.
