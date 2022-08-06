@@ -1,1 +1,8 @@
-TOS lies here
+1- All the terms and conditions mentioned on this page are applied to all users who use the neon bot.
+2- Once users use our discord bot, they automatically agree to all of our terms of service.
+3- It is not allowed to re-use any of the bot's icons or emojis without permission.
+4- It is not allowed for users to use harmful undetected bugs (if there's any) to cause harm to a server or a user.
+5- All users are responsible for any validations or harmful causes used against him.
+6- Users must provide us with all the needed data since all data is not harmful and can only be used to serve the user.
+7- Needed data will not go further than an account username. for privacy reasons, all data received is stored in a well secured database.
+8- For future cases, Any suubscriptions that will be added to the bot are not made for resells, any user who is found reselling any subscription will be blacklisted
