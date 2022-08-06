@@ -6,3 +6,5 @@
 6- Users must provide us with all the needed data since all data is not harmful and can only be used to serve the user.
 7- Needed data will not go further than an account username. for privacy reasons, all data received is stored in a well secured database.
 8- For future cases, Any suubscriptions that will be added to the bot are not made for resells, any user who is found reselling any subscription will be blacklisted
+9- The Services is currently free for your personal and non-commercial use. If you’ll use the Services on behalf of any entity or any third party, please contact us for the enterprise customer license agreement. We reserve the right to require payment of fees for certain or all Services.
+
