@@ -1,13 +1,13 @@
 1- Data and information used in our bot:
   All users will never be asked for sensitive whatsoever like your password, email or anything. All what the bot will ever ask you for is your last.fm username to be able to use our last.fm service which is still, optional.
   
- 2- How the user data is protected:
+2- How the user data is protected:
   All data is protected on a 2FA secured database that can only be used by one of the bot developers and not the rest which means no data can be frauded or leaked whatosever
   
- 3- Copyright of our bot:
+3- Copyright of our bot:
   It is forbidden to copy, reuse or use any of the bot's related content without permission.
   
-  4- The rights of our users:
+4- The rights of our users:
     * Withdraw their consent at any time. Users have the right to withdraw consent where they have previously given their consent to the processing of their personal Data.
     * Object to processing of their Data. Users have the right to object to the processing of their Data if the processing is carried out on a legal basis other than consent. Further details are provided in the dedicated section below.
     * Access their Data. Users have the right to learn if Data is being processed by the Owner, obtain disclosure regarding certain aspects of the processing and obtain a copy of the Data undergoing processing 
