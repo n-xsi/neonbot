@@ -1,3 +1,33 @@
+- Content provided by Users:
+
+The we allows Users to upload, share or provide their own content to the bot.
+
+By providing content to the bot, Users confirm that they are legally allowed to do so and that they are not infringing any statutory provisions and/or third-party rights.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Liability for provided content
+
+Users are solely liable for any content they upload, post, share, or provide through the bot. Users acknowledge and accept that we do not filter or moderate such content.
+
+However, we reserves the right to remove, delete, block or rectify such content at its own discretion and to, without prior notice, deny the uploading User access to the bot:
+
+    if any complaint based on such content is received;
+    if a notice of infringement of intellectual property rights is received;
+    upon order of a public authority; or
+    where the Owner is made aware that the content, while being accessible via this Website, may represent a risk for Users, third parties and/or the availability of the Service.
+
+The removal, deletion, blocking or rectification of content shall not entitle Users that have provided such content or that are liable for it, to any claims for compensation, damages or reimbursement.
+Users agree to hold us harmless from and against any claim asserted and/or damage suffered due to content they provided to or provided through this Website.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- Right of data deletion
+
+Unless exceptions apply, the User may be eligible to request data deletion from the database, for any reason and without justification.
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 1- All the terms and conditions mentioned on this page are applied to all users who use the neon bot.
 2- Once users use our discord bot, they automatically agree to all of our terms of service.
 3- It is not allowed to re-use any of the bot's icons or emojis without permission.
