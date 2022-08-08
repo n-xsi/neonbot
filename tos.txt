@@ -1,40 +1,41 @@
-- Content provided by Users:
+By using neon's serivces (Discord Bot, Website, First Party Analytics) you agree to all the terms provided in this document.
 
-The we allows Users to upload, share or provide their own content to the bot.
+Definitions:
+  Neon's Services:
+    - The services provided by neon and its developers
+    - This includes: Discord Bot, Website, First Party Analytics AND any application that directly links to these terms.
 
-By providing content to the bot, Users confirm that they are legally allowed to do so and that they are not infringing any statutory provisions and/or third-party rights.
+  Partner Services:
+    - The services provided to neon by trusted third parties:
+    - This includes: Hosting Provider, Third Party Analytics, Project Management Solutions AND any software used that is licensed.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Section 1 - User Generated Content:
+  - We allow users to upload, share and distribute content via neon's services
+  - By providing content to neon, users confirm their agreement to the following terms:
+    1. The content is (1) Their sole property or (2) The shared property of another third party or (3) Allowed to be distributed and shared with neon (and partner services)
+    2. Subject to deletion either (1) On request, without reason or justification by the user who submitted it OR (2) On request, with reason and justification by a third party OR (3) On request, without reason or justification by authorized platform (Discord) team member OR (4) On request, with/without reason or justification by a trusted development team member.
+    3. The content will be (1: In the case of sensitive information) Securely stored within a secured internal database OR (2: In the case of all other information) Stored within a secured internal/external database
+    4. The user will hold liability for the content they provide in accordance with Section 2
 
-- Liability for provided content
+Section 2 - Liability for User Generated Content:
+  - Users are solely liable for content they upload, share and distribute via neon's services.
+  - Users acknowledge that we are unable to moderate the content they provide and that it is subject to terms described in Section 1
+  - Users acknowledge that the content they upload, share and distribute via neon's services will be subject to deletion terms described in Section 1.2, without neon (and partner services) being liable to provide compensation.
 
-Users are solely liable for any content they upload, post, share, or provide through the bot. Users acknowledge and accept that we do not filter or moderate such content.
+Section 3 - Rights to Deletion of User Generated Content (AND/OR) stored User Information
+  - See Section 1.2
 
-However, we reserves the right to remove, delete, block or rectify such content at its own discretion and to, without prior notice, deny the uploading User access to the bot:
 
-    if any complaint based on such content is received;
-    if a notice of infringement of intellectual property rights is received;
-    upon order of a public authority; or
-    where the Owner is made aware that the content, while being accessible via this Website, may represent a risk for Users, third parties and/or the availability of the Service.
+Section 4 - Rights to Neon's Intellectual Property
+  - As a user you hold no claim to any of neon's assets and/or other intellectual property, this includes:
+    - Icons
+    - Avatar
+    - Emojis
+    - Branding
 
-The removal, deletion, blocking or rectification of content shall not entitle Users that have provided such content or that are liable for it, to any claims for compensation, damages or reimbursement.
-Users agree to hold us harmless from and against any claim asserted and/or damage suffered due to content they provided to or provided through this Website.
+Section 5 - Payments and Subscription(Recurring) Payments
+  - You agree to the terms provided in this document
+  - You agree to the terms provided at (1) The date of payment, from you to the neon account holder OR (2) The date of payment, at the start of your subscription to neon's services, from you to the neon account holder.
 
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-- Right of data deletion
-
-Unless exceptions apply, the User may be eligible to request data deletion from the database, for any reason and without justification.
-
-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-1- All the terms and conditions mentioned on this page are applied to all users who use the neon bot.
-2- Once users use our discord bot, they automatically agree to all of our terms of service.
-3- It is not allowed to re-use any of the bot's icons or emojis without permission.
-4- It is not allowed for users to use harmful undetected bugs (if there's any) to cause harm to a server or a user.
-5- All users are responsible for any validations or harmful causes used against him.
-6- Users must provide us with all the needed data since all data is not harmful and can only be used to serve the user.
-7- Needed data will not go further than an account username. for privacy reasons, all data received is stored in a well secured database.
-8- For future cases, Any suubscriptions that will be added to the bot are not made for resells, any user who is found reselling any subscription will be blacklisted
-9- The Services is currently free for your personal and non-commercial use. If you’ll use the Services on behalf of any entity or any third party, please contact us for the enterprise customer license agreement. We reserve the right to require payment of fees for certain or all Services.
-
+Contacts:
+  - Direct contact information is provided in each of our services in the appropriate section.
