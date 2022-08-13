@@ -1,5 +1,6 @@
 {
   "utilities": {
+    "friendlyName": "Utilities",
     "afk": {
       "description": "Sets your afk with a custom status so when someone pings you the bot reminds them you are afk.",
       "usage": ["(afk status)"],
@@ -204,6 +205,7 @@
     }
   },
   "lastfm": {
+    "friendlyName": "Last.FM",
     "custom-command": {
       "description": "Create your own custom nowplaying trigger",
       "usage": [
@@ -279,6 +281,7 @@
     }
   },
   "moderation": {
+    "friendlyName": "Moderation",
     "ban": {
       "description": "Bans a specified user from the server",
       "usage": ["[user/user id] (reason)"],
@@ -361,6 +364,7 @@
     }
   },
   "serverconfiguration": {
+    "friendlyName": "Server Configuration",
     "addemoji": {
       "description": "Add emoji to your server",
       "usage": [
