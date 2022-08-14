@@ -1,468 +1,480 @@
 {
   "utilities": {
     "friendlyName": "Utilities",
-    "Utilities": {
-      "afk": {
-        "description": "Sets your afk with a custom status so when someone pings you the bot reminds them you are afk.",
-        "usage": ["(afk status)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["away"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "avatar": {
-        "description": "Shows your or the mentioned user's avatar",
-        "usage": ["(target / target id)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["av", "pfp"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "banner": {
-        "description": "Shows your or the mentioned user's banner",
-        "usage": ["(target / target id)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "enlarge": {
-        "description": "Get the source image of an emoji",
-        "usage": ["[emoji]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["e"],
-        "permissions": "@everyone",
-        "cooldown": "1 second(s)"
-      },
-      "firstmessage": {
-        "description": "Get the first message ever sent in the channel.",
-        "usage": ["(channel)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["first"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "help": {
-        "description": "Shows you all the commands the bot offers",
-        "usage": ["(command)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "invite": {
-        "description": "Invite the bot to other servers.",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["inv"],
-        "permissions": "@everyone",
-        "cooldown": "1 second(s)"
-      },
-      "membercount": {
-        "description": "Sends the amount of members in the server",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["mc", "countmembers"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "ping": {
-        "description": "Displays bot's latency",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["p"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "roles": {
-        "description": "Sends all the roles in the server",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "serveravatar": {
-        "description": "Sends your/the mentioned user current in guild avatar",
-        "usage": "(target)",
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["sav", "savatar", "serverav"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "guildbanner": {
-        "description": "Sends the guild's banner",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["gbanner", "gb", "serverbanner", "sbanner", "sb"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "servericon": {
-        "description": "Sends the server's icon",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["sic", "serveric", "sicon"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "serverinfo": {
-        "description": "Get the general information of the server",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["guildinfo", "sinfo", "ginfo", "server", "guild"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "serversplash": {
-        "description": "Shows the server's splash",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["splash"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "status": {
-        "description": "Sends your/mentioned user's custom status",
-        "usage": ["(target)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["customstatus"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "support": {
-        "description": "Reporting a bug? having a question? ask it there in the support server.",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "@everyone",
-        "cooldown": "1 second(s)"
-      },
-      "tiktok": {
-        "description": "Downloads and sends the video of the provided TikTok URL.",
-        "usage": ["[TikTok URL]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["tt"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "time": {
-        "description": "Sends the current time of the provided city",
-        "usage": ["[city]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["date"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "uptime": {
-        "description": "Shows how long the bot was online",
-        "usage": [],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["awake"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "userinfo": {
-        "description": "Sends your/specified user's general info",
-        "usage": ["(target)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["whois", "who", "info", "ui"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "user-roles": {
-        "description": "Get all the roles the user has in this server",
-        "usage": ["(target)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["userroles", "uroles"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      }
+    "afk": {
+      "description": "Sets your afk with a custom status so when someone pings you the bot reminds them you are afk.",
+      "usage": ["(afk status)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["away"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "avatar": {
+      "description": "Shows your or the mentioned user's avatar",
+      "usage": ["(target / target id)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["av", "pfp"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "banner": {
+      "description": "Shows your or the mentioned user's banner",
+      "usage": ["(target / target id)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "enlarge": {
+      "description": "Get the source image of an emoji",
+      "usage": ["[emoji]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["e"],
+      "permissions": "@everyone",
+      "cooldown": "1 second(s)"
+    },
+    "firstmessage": {
+      "description": "Get the first message ever sent in the channel.",
+      "usage": ["(channel)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["first"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "help": {
+      "description": "Shows you all the commands the bot offers",
+      "usage": ["(command)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "invite": {
+      "description": "Invite the bot to other servers.",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["inv"],
+      "permissions": "@everyone",
+      "cooldown": "1 second(s)"
+    },
+    "membercount": {
+      "description": "Sends the amount of members in the server",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["mc", "countmembers"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "ping": {
+      "description": "Displays bot's latency",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["p"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "roles": {
+      "description": "Sends all the roles in the server",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "serveravatar": {
+      "description": "Sends your/the mentioned user current in guild avatar",
+      "usage": "(target)",
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["sav", "savatar", "serverav"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "guildbanner": {
+      "description": "Sends the guild's banner",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["gbanner", "gb", "serverbanner", "sbanner", "sb"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "servericon": {
+      "description": "Sends the server's icon",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["sic", "serveric", "sicon"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "serverinfo": {
+      "description": "Get the general information of the server",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["guildinfo", "sinfo", "ginfo", "server", "guild"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "serversplash": {
+      "description": "Shows the server's splash",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["splash"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "status": {
+      "description": "Sends your/mentioned user's custom status",
+      "usage": ["(target)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["customstatus"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "support": {
+      "description": "Reporting a bug? having a question? ask it there in the support server.",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "@everyone",
+      "cooldown": "1 second(s)"
+    },
+    "tiktok": {
+      "description": "Downloads and sends the video of the provided TikTok URL.",
+      "usage": ["[TikTok URL]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["tt"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "time": {
+      "description": "Sends the current time of the provided city",
+      "usage": ["[city]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["date"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "uptime": {
+      "description": "Shows how long the bot was online",
+      "usage": [],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["awake"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "userinfo": {
+      "description": "Sends your/specified user's general info",
+      "usage": ["(target)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["whois", "who", "info", "ui"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "user-roles": {
+      "description": "Get all the roles the user has in this server",
+      "usage": ["(target)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["userroles", "uroles"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
     }
   },
   "last.fm": {
     "friendlyName": "Last.fm",
-    "lastfm": {
-      "custom-command": {
-        "description": "Create your own custom nowplaying trigger",
-        "usage": [
-          "set [trigger]",
-          "unset",
-          "server <trigger OR 'unset'>",
-          "show"
-        ],
-        "examples": [],
-        "subcommands": ["set", "unset", "status", "server"],
-        "aliases": ["cc"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "fm-reactions": {
-        "description": "Configure custom NowPlaying reactions globally, or per user.",
-        "usage": [
-          "[emoji1] [emoji2] (or) [reset]",
-          "server [emoji1] [emoji2] (or) [reset]"
-        ],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "login": {
-        "description": "Login with your last.fm username to access last.fm commands",
-        "usage": ["<username>"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["set"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      },
-      "nowplaying": {
-        "description": "Show your last.fm recent tracks",
-        "usage": ["(last.fm user)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["np", "fm"],
-        "permissions": "@everyone",
-        "cooldown": "No Cooldown"
-      }
+    "custom-command": {
+      "description": "Create your own custom nowplaying trigger",
+      "usage": [
+        "set [trigger]",
+        "unset",
+        "server <trigger OR 'unset'>",
+        "show"
+      ],
+      "examples": [],
+      "subcommands": ["set", "unset", "status", "server"],
+      "aliases": ["cc"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "fm-embed": {
+      "description": "Create a custom 'nowplaying'",
+      "usage": ["Work in progress"],
+      "examples": [],
+      "subcommands": [
+        "edit",
+        "enable",
+        "disable",
+        "save",
+        "load",
+        "delete",
+        "profiles",
+        "rename",
+        "test",
+        "reset"
+      ],
+      "aliases": ["fe"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "fm-reactions": {
+      "description": "Configure custom NowPlaying reactions globally, or per user.",
+      "usage": [
+        "[emoji1] [emoji2] (or) [reset]",
+        "server [emoji1] [emoji2] (or) [reset]"
+      ],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "login": {
+      "description": "Login with your last.fm username to access last.fm commands",
+      "usage": ["<username>"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["set"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
+    },
+    "nowplaying": {
+      "description": "Show your last.fm recent tracks",
+      "usage": ["(last.fm user)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["np", "fm"],
+      "permissions": "@everyone",
+      "cooldown": "No Cooldown"
     }
   },
   "moderation": {
     "friendlyName": "Moderation",
-    "moderation": {
-      "ban": {
-        "description": "Bans a specified user from the server",
-        "usage": ["[user/user id] (reason)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["BAN_MEMBERS"],
-        "cooldown": "No Cooldown"
-      },
-      "fixname": {
-        "description": "Fix a name of a user by setting their nickname to a randomly generated one",
-        "usage": ["[user mention/user id]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["MANAGE_NICKNAMES"],
-        "cooldown": "No Cooldown"
-      },
-      "kick": {
-        "description": "Kicks a specified user from the server",
-        "usage": ["[user/user id] (reason)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": "KICK_MEMBERS",
-        "cooldown": "No Cooldown"
-      },
-      "purge": {
-        "description": "Deletes the specified amount of messages from the channel",
-        "usage": ["[amount] (target / targetID)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["delete", "clear"],
-        "permissions": ["MANAGE_MESSAGES"],
-        "cooldown": "No Cooldown"
-      },
-      "slowmode": {
-        "description": "Set a slowmode for the current channel/provided channel",
-        "usage": ["[slowmode duration] (channel)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "No Cooldown"
-      },
-      "timeout": {
-        "description": "Timeout a member for a specific period of time",
-        "usage": ["[user/user id] [duration] (reason)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["mute"],
-        "permissions": ["MUTE_MEMBERS"],
-        "cooldown": "No Cooldown"
-      },
-      "unban": {
-        "description": "Unbans a user from the guild",
-        "usage": ["[userid]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["BAN_MEMBERS"],
-        "cooldown": "No Cooldown"
-      },
-      "untimeout": {
-        "description": "remove the timeout from a member",
-        "usage": ["[user/user id] (reason)"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["unmute"],
-        "permissions": ["MUTE_MEMBERS"],
-        "cooldown": "No Cooldown"
-      }
+    "ban": {
+      "description": "Bans a specified user from the server",
+      "usage": ["[user/user id] (reason)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["BAN_MEMBERS"],
+      "cooldown": "No Cooldown"
+    },
+    "fixname": {
+      "description": "Fix a name of a user by setting their nickname to a randomly generated one",
+      "usage": ["[user mention/user id]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["MANAGE_NICKNAMES"],
+      "cooldown": "No Cooldown"
+    },
+    "kick": {
+      "description": "Kicks a specified user from the server",
+      "usage": ["[user/user id] (reason)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": "KICK_MEMBERS",
+      "cooldown": "No Cooldown"
+    },
+    "purge": {
+      "description": "Deletes the specified amount of messages from the channel",
+      "usage": ["[amount] (target / targetID)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["delete", "clear"],
+      "permissions": ["MANAGE_MESSAGES"],
+      "cooldown": "No Cooldown"
+    },
+    "slowmode": {
+      "description": "Set a slowmode for the current channel/provided channel",
+      "usage": ["[slowmode duration] (channel)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "No Cooldown"
+    },
+    "timeout": {
+      "description": "Timeout a member for a specific period of time",
+      "usage": ["[user/user id] [duration] (reason)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["mute"],
+      "permissions": ["MUTE_MEMBERS"],
+      "cooldown": "No Cooldown"
+    },
+    "unban": {
+      "description": "Unbans a user from the guild",
+      "usage": ["[userid]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["BAN_MEMBERS"],
+      "cooldown": "No Cooldown"
+    },
+    "untimeout": {
+      "description": "remove the timeout from a member",
+      "usage": ["[user/user id] (reason)"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["unmute"],
+      "permissions": ["MUTE_MEMBERS"],
+      "cooldown": "No Cooldown"
     }
   },
   "serverconfiguration": {
     "friendlyName": "Server Configuration",
-    "ServerConfiguration": {
-      "addemoji": {
-        "description": "Add emoji to your server",
-        "usage": [
-          "[emoji] (name)",
-          "[image link] [name]",
-          "[image attachment] [name]",
-          "multiple [emoji1] [emoji2] ..."
-        ],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["ae"],
-        "permissions": ["MANAGE_EMOJIS_AND_STICKERS"],
-        "cooldown": "No Cooldown"
-      },
-      "autoreply": {
-        "description": "Auto replies to a message",
-        "usage": ["add [trigger] | [response]", "delete [trigger]", "list"],
-        "examples": [],
-        "subcommands": ["add", "delete", "list"],
-        "aliases": "",
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "1 second(s)"
-      },
-      "autorole": {
-        "description": "Automatically give roles to new members that join the server. By default auto roles are toggled off.",
-        "usage": ["add [role]", "remove [role]", "toggle on/off", "list"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["arole", "ar"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "No Cooldown"
-      },
-      "embed": {
-        "description": "Build a custom embed.",
-        "usage": [
-          "create [embedName]",
-          "edit [embedName] [property] [newValue]",
-          "send [channel] [embedName]",
-          "delete [embedName]",
-          "list",
-          "variables"
-        ],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "1 second(s)"
-      },
-      "modlogs": {
-        "description": "Logs any changes that happen to the server.",
-        "usage": ["<#channel or disable>"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["mod-logs", "ml"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "2 second(s)"
-      },
-      "nickname-filter": {
-        "description": "Resets a member nickname if it's changed to a blacklisted name.",
-        "usage": "toggle [status]\nblacklist [nickname]\nwhitelist [nickname]\nclear\nstatus",
-        "examples": [],
-        "subcommands": ["toggle", "blacklist", "whitelist", "clear", "status"],
-        "aliases": ["nick-filter", "nf"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "No Cooldown"
-      },
-      "prefix": {
-        "description": "Set the prefix for the guild",
-        "usage": ["[prefix] (or) [default]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": "",
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "10 second(s)"
-      },
-      "selfroles": {
-        "description": "Setup a self roles menu.",
-        "usage": [
-          "create [channel]",
-          "add [menu ID] - [role] - (emote) - (description)",
-          "delete [menuID] [role]",
-          "edit [menuID] [title | description] [newValue]",
-          "list"
-        ],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["sr", "self-roles"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "1 second(s)"
-      },
-      "setbanner": {
-        "description": "Set the server's banner.",
-        "usage": ["[image attachement/image url]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["setserverbanner"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "3 second(s)"
-      },
-      "seticon": {
-        "description": "Set the server's icon.",
-        "usage": ["[image attachement/image url]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["setservericon"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "3 second(s)"
-      },
-      "setsplash": {
-        "description": "Set the server's splash.",
-        "usage": ["[image attachement/image url]"],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["setserversplash"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "3 second(s)"
-      },
-      "welcome": {
-        "description": "Welcome a user once they join the server!",
-        "usage": [
-          "message [message]",
-          "channel [#channel]",
-          "toggle [status]",
-          "embed [embed]",
-          "variables"
-        ],
-        "examples": [],
-        "subcommands": [],
-        "aliases": ["welc"],
-        "permissions": ["MANAGE_GUILD"],
-        "cooldown": "No Cooldown"
-      }
+    "addemoji": {
+      "description": "Add emoji to your server",
+      "usage": [
+        "[emoji] (name)",
+        "[image link] [name]",
+        "[image attachment] [name]",
+        "multiple [emoji1] [emoji2] ..."
+      ],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["ae"],
+      "permissions": ["MANAGE_EMOJIS_AND_STICKERS"],
+      "cooldown": "No Cooldown"
+    },
+    "autoreply": {
+      "description": "Auto replies to a message",
+      "usage": ["add [trigger] | [response]", "delete [trigger]", "list"],
+      "examples": [],
+      "subcommands": ["add", "delete", "list"],
+      "aliases": "",
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "1 second(s)"
+    },
+    "autorole": {
+      "description": "Automatically give roles to new members that join the server. By default auto roles are toggled off.",
+      "usage": ["add [role]", "remove [role]", "toggle on/off", "list"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["arole", "ar"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "No Cooldown"
+    },
+    "embed": {
+      "description": "Build a custom embed.",
+      "usage": [
+        "create [embedName]",
+        "edit [embedName] [property] [newValue]",
+        "send [channel] [embedName]",
+        "delete [embedName]",
+        "list",
+        "variables"
+      ],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "1 second(s)"
+    },
+    "modlogs": {
+      "description": "Logs any changes that happen to the server.",
+      "usage": ["<#channel or disable>"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["mod-logs", "ml"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "2 second(s)"
+    },
+    "nickname-filter": {
+      "description": "Resets a member nickname if it's changed to a blacklisted name.",
+      "usage": "toggle [status]\nblacklist [nickname]\nwhitelist [nickname]\nclear\nstatus",
+      "examples": [],
+      "subcommands": ["toggle", "blacklist", "whitelist", "clear", "status"],
+      "aliases": ["nick-filter", "nf"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "No Cooldown"
+    },
+    "prefix": {
+      "description": "Set the prefix for the guild",
+      "usage": ["[prefix] (or) [default]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": "",
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "10 second(s)"
+    },
+    "selfroles": {
+      "description": "Setup a self roles menu.",
+      "usage": [
+        "create [channel]",
+        "add [menu ID] - [role] - (emote) - (description)",
+        "delete [menuID] [role]",
+        "edit [menuID] [title | description] [newValue]",
+        "list"
+      ],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["sr", "self-roles"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "1 second(s)"
+    },
+    "setbanner": {
+      "description": "Set the server's banner.",
+      "usage": ["[image attachement/image url]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["setserverbanner"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "3 second(s)"
+    },
+    "seticon": {
+      "description": "Set the server's icon.",
+      "usage": ["[image attachement/image url]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["setservericon"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "3 second(s)"
+    },
+    "setsplash": {
+      "description": "Set the server's splash.",
+      "usage": ["[image attachement/image url]"],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["setserversplash"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "3 second(s)"
+    },
+    "welcome": {
+      "description": "Welcome a user once they join the server!",
+      "usage": [
+        "message [message]",
+        "channel [#channel]",
+        "toggle [status]",
+        "embed [embed]",
+        "variables"
+      ],
+      "examples": [],
+      "subcommands": [],
+      "aliases": ["welc"],
+      "permissions": ["MANAGE_GUILD"],
+      "cooldown": "No Cooldown"
     }
   }
 }
