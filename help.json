@@ -281,7 +281,7 @@
         "collage": {
             "description": "Create a collage of your top albums or tracks.",
             "usage": [
-                "[size] [artist or album] (duration `default = overall`) (target)"
+                "[size] (duration `default = forever`) (target)"
             ],
             "examples": [],
             "subcommands": [],
@@ -358,7 +358,9 @@
         },
         "nowplaying": {
             "description": "Show your last.fm recent tracks",
-            "usage": "nowplaying [last.fm user]",
+            "usage": [
+                "[last.fm user]"
+            ],
             "examples": [],
             "subcommands": [],
             "aliases": [
@@ -671,7 +673,13 @@
         },
         "nickname-filter": {
             "description": "Resets a member nickname if it's changed to a blacklisted name.",
-            "usage": "toggle [status]\nblacklist [nickname]\nwhitelist [nickname]\nclear\nstatus",
+            "usage": [
+                "toggle [status]",
+                "blacklist [nickname]",
+                "whitelist [nickname]",
+                "clear",
+                "status"
+            ],
             "examples": [],
             "subcommands": [],
             "aliases": [
