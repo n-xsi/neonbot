@@ -281,7 +281,7 @@
         "collage": {
             "description": "Create a collage of your top albums or tracks.",
             "usage": [
-                "[size] (duration `default = forever`) (target)"
+                "[size] (duration default = forever) (target)"
             ],
             "examples": [],
             "subcommands": [],
