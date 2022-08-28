@@ -134,7 +134,7 @@
         },
         "serveravatar": {
             "description": "Sends your/the mentioned user current in guild avatar",
-            "usage": "(target)",
+            "usage": ["(target)"],
             "examples": [],
             "subcommands": [],
             "aliases": [
