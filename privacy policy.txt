@@ -18,11 +18,12 @@ Any use of Cookies by this Website or by the owners of third-party services used
 
 **Guild(Server) data:**
 - [Guild ID, Channels IDs, Role ID].
-- Members presence.
 
 **User(member):**
 - User ID for globally based commands.
-- Member presence (For the commands `n!fm spotify and n!userinfo status [dnd, idle, online or offline]`).
+
+**Message Content:**
+- We store the required message content for setting up custom built commands like self roles and custom embeds.
 
 ## The rights of Users
 *Users may exercise certain rights regarding their Data processed by the Owner.*
