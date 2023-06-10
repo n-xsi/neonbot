@@ -67,12 +67,12 @@ In addition to the information contained in this privacy policy, this Website ma
 More details concerning the collection or processing of Personal Data may be requested from the Owners at any time. Please see the contact information at the end of this document.
 
 **How “Do Not Track” requests are handled**
-In short, We do not offer a "Do Not track" service.
+In short, We do not offer a "Do Not Track" service.
 To determine whether any of the third-party services it uses honor the “Do Not Track” requests, please read their privacy policies.
 
 ## FAQ
 **Where do you store the data?**
-- All data stored by us is safely stored in a well secured 2FA authinticated database.
+- All data stored by us is safely stored in a well secured 2FA authenticated database.
 - This data is only accessible by the hosting providers themselves and the bot owners.
 
 **Do you sell/share my data with anyone?**
