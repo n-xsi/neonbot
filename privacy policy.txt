@@ -82,4 +82,4 @@ To determine whether any of the third-party services it uses honor the “Do Not
 - For guild data, Data will be removed one week after the bot has been kicked from the server. Why? To avoid trouble on accidental kick of the bot.
 - For user data, The User ID is permanently stored for global commands to work. Any other data (e.g. User Presence) is stored in-memory and deletes itself after a specific time or on bot reload. 
 
-To ask questions or comment about this Privacy Policy and our privacy practices, please contact us via Discord nxsi#5487 or SpoopyTim#7319 or use our support discord server https://neonbot.xyz/support or via email contact@nxsi.tech
+To ask questions or comment about this Privacy Policy and our privacy practices, please contact us via Discord @ nxsi or spoopytim or use our support discord server https://neonbot.xyz/support or via email contact@nxsi.tech
